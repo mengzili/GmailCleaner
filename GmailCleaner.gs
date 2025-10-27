@@ -23,7 +23,7 @@ SOFTWARE.
 function cleanMailBox() {
     // check the category Gmail added to the thread
     var searches = [
-        '{category:promotions category:Social category:Updates category:Forums} -in:Trash -is:starred -is:important -has:attachment older_than:7d is:unread'
+        'older_than:183d'
     ];
     // creating an array containing all the threads matching the searches above
     var threads = [];
